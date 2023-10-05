@@ -1,6 +1,8 @@
 import React from 'react'
 import NetflixImg from '../assets/projects/ntfx.jpg'
 import WorkImg from '../assets/projects/pexels-neo-2653362.jpg'
+import OlxImg from '../assets/projects/olx.png'
+import ExclImg from '../assets/projects/excl.png'
 import { BsGithub } from 'react-icons/bs'
 
 const Work = () => {
@@ -36,7 +38,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${WorkImg})` }}
+                    <div style={{ backgroundImage: `url(${OlxImg})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
@@ -116,7 +118,7 @@ const Work = () => {
                         </div>
                     </div>
                     
-                    <div style={{ backgroundImage: `url(${WorkImg})` }}
+                    <div style={{ backgroundImage: `url(${ExclImg})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
