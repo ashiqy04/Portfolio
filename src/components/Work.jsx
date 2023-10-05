@@ -13,14 +13,14 @@ const Work = () => {
                 </div>
 
                 {/*Container */}
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
 
                 {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${NetflixImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div '>
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 '>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Netflix Clone
                             </span>
@@ -37,7 +37,7 @@ const Work = () => {
                     </div>
 
                     <div style={{ backgroundImage: `url(${WorkImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div '>
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -57,7 +57,7 @@ const Work = () => {
                     </div>
 
                     <div style={{ backgroundImage: `url(${WorkImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div '>
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -77,7 +77,7 @@ const Work = () => {
                     </div>
 
                     <div style={{ backgroundImage: `url(${WorkImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div '>
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -97,7 +97,7 @@ const Work = () => {
                     </div>
 
                     <div style={{ backgroundImage: `url(${WorkImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div '>
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -117,7 +117,7 @@ const Work = () => {
                     </div>
                     
                     <div style={{ backgroundImage: `url(${WorkImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div '>
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto hover:scale-105 duration-500 content-div '>
 
                         {/*Hover Effects*/}
                         <div className='opacity-0 group-hover:opacity-100'>
