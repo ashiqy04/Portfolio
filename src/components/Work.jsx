@@ -1,6 +1,7 @@
 import React from 'react'
 import NetflixImg from '../assets/projects/ntfx.jpg'
 import WorkImg from '../assets/projects/pexels-neo-2653362.jpg'
+import { BsGithub } from 'react-icons/bs'
 
 const Work = () => {
     return (
@@ -25,10 +26,11 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ashiqy04/Netflix-Clone-ReactJS'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href='https://github.com/ashiqy04/Netflix-Clone-ReactJS'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code <BsGithub size={27}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer inline"/></button>
                                 </a>
                             </div>
                         </div>
@@ -44,10 +46,11 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ashiqy04/OLX-Clone'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href='https://github.com/ashiqy04/OLX-Clone'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code <BsGithub size={27}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer inline"/></button>
                                 </a>
                             </div>
                         </div>
@@ -63,10 +66,11 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ashiqy04/Educational-Counselling'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href='https://github.com/ashiqy04/Educational-Counselling'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code <BsGithub size={27}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer inline"/></button>
                                 </a>
                             </div>
                         </div>
@@ -82,10 +86,11 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ashiqy04/Online-Shopping'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href='https://github.com/ashiqy04/Online-Shopping'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code <BsGithub size={27}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer inline"/></button>
                                 </a>
                             </div>
                         </div>
@@ -101,10 +106,11 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ashiqy04/User-Management-System-FullStack'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href='https://github.com/ashiqy04/User-Management-System-FullStack'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code <BsGithub size={27}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer inline"/></button>
                                 </a>
                             </div>
                         </div>
@@ -120,13 +126,15 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://github.com/ashiqy04/ExcelFile-to-Table-View-Frontend'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href='https://github.com/ashiqy04/ExcelFile-to-Table-View-Frontend'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code-FE</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code-FE <BsGithub size={27}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer inline"/></button>
                                 </a>
                                 <a href='https://github.com/ashiqy04/ExcelFile-Table-View-Backend'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code-BE</button>
+                                    <button className='hover:-translate-y-1 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code-BE <BsGithub size={27}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer inline"/></button>
                                 </a>
                             </div>
                         </div>
